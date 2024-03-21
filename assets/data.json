@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Lauterbrunnen",
+        "price": 220.00,
+        "rating": 4,
+        "image": "./Lauterbrunnen.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "London",
+        "price": 69.99,
+        "rating": 5,
+        "image": "./London.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Montevidéu",
+        "price": 76.10,
+        "rating": 5,
+        "image": "./Montevidéu.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Paris",
+        "price": 599.96,
+        "rating": 4,
+        "image": "./Paris.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "New York",
+        "price": 171.10,
+        "rating": 4,
+        "image": "./NewYork.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Tokyo",
+        "price": 128.99,
+        "rating": 4,
+        "image": "./Tokyo.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Maldive Slands",
+        "price": 149.99,
+        "rating": 3,
+        "image": "./MaldiveSlands.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Salvador",
+        "price": 80.99,
+        "rating": 4,
+        "image": "./Salvador.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Gramado",
+        "price": 75.92,
+        "rating": 3,
+        "image": "./Gramado.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Porto Seguro",
+        "price": 77.90,
+        "rating": 3,
+        "image": "./PortoSeguro.jpeg"
+    }
+]

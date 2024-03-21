@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="assets/head.png" type="image/x-icon" sizes="32x32" />
+		<link rel="stylesheet" href="./css/style.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+
+		<title>Trivago</title>
+	</head>
+	<body>
+        <header>
+            <div class="header">
+                <!-- <div class="title"><a href="#"><span class="bluetext">Tri</span><span class="yellowtext">va</span><span class="redtext">go</span></a></div> -->
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="114" height="32" viewBox="0 0 114 32" data-testid="header-hero-logo" class=""><g clip-path="url(#Logo_default_svg__a)"><path fill="#E32851" d="M38.637 7.434h-4.913a.255.255 0 00-.255.255v15.907c0 .14.114.255.255.255h4.913c.14 0 .255-.114.255-.255V7.689a.255.255 0 00-.255-.255z"></path><path fill="#FF932C" d="M52.833 7.6L49.6 16.21a.057.057 0 01-.107 0L46.231 7.6a.255.255 0 00-.239-.165h-5.37a.255.255 0 00-.237.351l6.46 15.907c.039.096.133.16.236.16h4.724a.255.255 0 00.237-.16L58.53 7.786a.255.255 0 00-.237-.352h-5.222a.255.255 0 00-.239.166z"></path><path fill="#0088D9" d="M104.344 7.185c-5.126 0-8.86 3.615-8.86 8.476 0 4.86 3.734 8.475 8.86 8.475 5.068 0 8.861-3.645 8.861-8.475 0-4.86-3.764-8.476-8.861-8.476zm0 12.328c-2.015 0-3.348-1.541-3.348-3.853 0-2.31 1.333-3.852 3.348-3.852 1.986 0 3.349 1.54 3.349 3.853 0 2.281-1.363 3.852-3.349 3.852z"></path><path fill="#E32851" d="M31.673 7.355a2.833 2.833 0 00-.514-.121c-.314-.05-3.647-.424-5.501 2.063-.033.044-.103.02-.103-.034V7.689a.255.255 0 00-.255-.255h-4.913a.255.255 0 00-.255.255v15.907c0 .14.114.255.255.255H25.3a.255.255 0 00.255-.255V17.69c0-4.416 2.044-5.514 4.06-5.514.237 0 .926-.001 1.9.268a.255.255 0 00.322-.245V7.594a.253.253 0 00-.164-.239zM36.18 0c-1.713 0-3.102 1.339-3.102 2.99 0 1.651 1.39 2.99 3.103 2.99 1.713 0 3.102-1.339 3.102-2.99 0-1.651-1.39-2.99-3.102-2.99z"></path><path fill="#FF932C" d="M75.341 7.434H70.43a.255.255 0 00-.255.255v1.565c0 .06-.083.08-.109.024-1.774-3.717-12.282-2.994-12.282 6.364 0 8.748 8.978 10.306 12.29 6.645.036-.04.1-.015.1.038v1.27c0 .142.115.256.256.256h4.912a.255.255 0 00.256-.255V7.689a.255.255 0 00-.255-.255zM66.77 19.495c-2.164 0-3.672-1.508-3.672-3.836s1.508-3.869 3.672-3.869c2.197 0 3.672 1.574 3.672 3.87 0 2.294-1.475 3.835-3.672 3.835z"></path><path fill="#0088D9" d="M93.893 7.434h-4.912a.255.255 0 00-.255.255v1.564c0 .062-.083.08-.11.025-1.78-3.764-11.567-2.82-11.567 5.89 0 8.54 8.92 9.243 11.58 6.759a.057.057 0 01.096.042v.769c-.068 3.629-4.614 5.2-6.924 2.443a.255.255 0 00-.334-.05l-4.14 2.677a.257.257 0 00-.066.368c5.283 7.219 16.802 3.548 16.887-5.422V7.69a.255.255 0 00-.255-.255zm-8.101 11.201c-1.956 0-3.32-1.363-3.32-3.466 0-2.104 1.364-3.497 3.32-3.497 1.985 0 3.318 1.422 3.318 3.497 0 2.074-1.333 3.466-3.318 3.466z"></path><path fill="#E32851" d="M18.424 14.867h-4.92a.26.26 0 00-.254.237 3.92 3.92 0 01-3.907 3.61c-2.472 0-3.472-2.1-3.472-2.1a3.923 3.923 0 01-.448-1.749c0-.02.011-.04.03-.05l1.407-.777 8.894-4.919a.425.425 0 00.22-.372V3.46a.255.255 0 00-.38-.224L5.509 8.814a.057.057 0 01-.086-.05V.452a.255.255 0 00-.394-.214L.194 3.368A.425.425 0 000 3.727v11.14a9.343 9.343 0 0018.68.268.257.257 0 00-.256-.268z"></path></g><defs><clipPath id="Logo_default_svg__a"><path fill="#fff" d="M0 0h113.205v32H0z"></path></clipPath></defs></svg>
+
+
+
+                <nav>
+                    <ul>
+                        <li><a href="./pages/favorites.html"><img src="./assets/favorites.svg" alt="Ver menu" /><span>Meus favoritos</span></a></li>
+                        <li><a href=""><img src="./assets/user.svg" alt="fazer login" class="user" /><span>Fazer login</span></a></li>
+                        <li><a href=""><span>Menu</span><img src="./assets/arrow-bottom.svg" alt="Ver menu" class="rotation" /></a></li>
+                        <li><a href=""><span>BRL</span><img src="./assets/arrow-bottom.svg" alt="Ver mais moedas" class="rotation" /></a></li>
+                        <li class="hamburguer"><a href=""><img src="./assets/hamburguer.svg" alt="hamburguer menu" /><span>Menu</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="forms">
+                
+                
+             
+
+             
+                <div class="topo-site">
+                    <div class="titulo-topo-site">
+                        <h1>Comparamos preços de hotéis de centenas de sites</h1>
+                        <p>A gente busca. Você economiza.</p>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="assets/brand-desktop.svg">
+                    </div>
+                </div>
+                <!-- <form action="index.php" method="POST">
+                        <input type="text" />	
+                        <button>Pesquisar</button>
+
+                        
+                </form> -->
+
+
+
+                <div class="search-box">
+                    <input type="text" class="search-input" placeholder="Digite aqui para pesquisar">
+                    <input type="date" class="search-select" placeholder="Pesquisar por data">
+                    <input type="date" class="search-select" placeholder="Pesquisar por data">
+                    <button type="submit" class="search-button">Pesquisar</button>
+              </div>
+              
+
+
+
+                <ul>
+                    <li><img src="./assets/booking.png" alt="empresas aéreas"></li>
+                    <li><img src="./assets/hoteis.png" alt="empresas aéreas"></li>
+                    <li><img src="./assets/expedida.png" alt="empresas aéreas"></li>
+                    <li><img src="./assets/vrbo.png" alt="empresas aéreas"></li>
+                    <li><img src="./assets/all.png" alt="empresas aéreas"></li>
+                    <li><img src="./assets/trip.png" alt="empresas aéreas"></li>
+                    <li><img src="./assets/decolar.png" alt="empresas aéreas"></li>
+                    <li><span>+ de 100</span></li>
+                </ul>
+            </section>
+        
+            <section class="hoteis">
+                    <h1>Os <span class="bluetext">melhores</span> hotéis</h1>
+                    <div class="content">
+                    </div>
+            </section>
+            <section class="about">
+                <h2>Sobre o <span class="bluetext">Trivago</span></h2>
+                <div class="faq">
+                    <div class="box">
+                        <h3>Buscador global de hotéis do Rafigo</h3>
+                        <p>Com apenas alguns cliques, o buscador de hotéis do rafigo permite que os usuários comparem preços de hotéis em centenas
+                        de sites de reserva com mais de 5 milhões de hotéis e outros tipos de acomodações em mais de 190 países. Todos os anos,
+                        ajudamos milhões de viajantes a comparar ofertas de hotéis e acomodações. Consulte informações para viagens a cidades
+                        como <b>Rio de Janeiro</b> ou <b>São Paulo</b> e encontre o hotel certo no rafigo, de maneira rápida e fácil. <b>Fortaleza</b> e seus
+                        arredores são ótimas escolhas para viagens de uma semana ou mais com a grande variedade de hotéis disponíveis.</p>
+                    </div>
+                    <div class="box">
+                        <h3>Encontre hotéis baratos no rafigo</h3>
+                        <p>O Rafigo permite a você encontrar <span class="bluebackground">facilmente o hotel ideal e comparar preços de vários sites</span>. Basta informar para onde
+                        quer ir e as datas desejadas para viajar, e deixe que nosso mecanismo de busca compare preços de acomodações para você.
+                        Para refinar os resultados de sua busca, filtre por preço, distância (da praia, por exemplo), categoria por estrelas,
+                        instalações e muito mais. De hostels econômicos a suítes de luxo, o rafigo facilita a reserva online. Você pode buscar
+                        entre uma enorme variedade de quartos e localizações ao redor do Brasil, como <b>Salvador</b> e <b>Florianópolis</b>, além de outras
+                        cidades populares e destinos de férias internacionais!</p>
+                    </div>
+                    <div class="box">
+                        <h3>As avaliações o ajudam a encontrar seu hotel ideal</h3>
+                        <p>Com mais de <span class="bluebackground">175 milhões de avaliações de hotéis agregadas</span> e mais de 19 milhões de imagens, fica mais fácil encontrar
+                        informações sobre o local para onde você está viajando. Para ter uma visão geral de um hotel, o rafigo exibe uma média
+                        das avaliações junto a diversas opiniões de outros sites de reservas, como Decolar, Hotel Urbano, Hoteis.com, Expedia,
+                        etc. O rafigo ajuda você a encontrar informações sobre sua viagem para <b>Paris</b>, incluindo o hotel ideal para você.</p>
+                    </div>
+                    <div class="box">
+                        <h3>Como reservar</h3>
+                        <p>O Rafigo é um buscador de hotéis com um extenso comparador de preços. Os preços exibidos vêm de vários sites de
+                        reservas e de hotéis. Isso quer dizer que, enquanto os usuários decidem no Rafigo qual hotel melhor supre suas
+                        necessidades, o processo de reserva se dá através dos sites de reserva (que estão conectados a nosso site). Ao clicar no
+                        botão “Ver oferta”, você será direcionado para um site de reservas no qual poderá completar o processo de reserva para a
+                        oferta encontrada no Rafigo.<br>
+                        Visite o site do Rafigo e encontre o preço ideal em mais de centenas de sites de reserva!</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="media">
+                <h3>Rafigo</h3>
+                <div class="media__redes">
+                    <img src="./assets/facebook.svg" alt="Redes sociais"/>
+                    <img src="./assets/twitter.svg" alt="Redes sociais" />
+                    <img src="./assets/instagram.svg" alt="Redes sociais" />
+                    <img src="./assets/youtube.svg" alt="Redes sociais" />
+                    <img src="./assets/linkedin.svg" alt="Redes sociais" />
+                </div>
+            </div>
+            <select name="Pais">
+                <option value="1">Brasil</option>
+                <option value="2">Estados Unidos</option>
+                <option value="3">Canadá</option>
+                <option value="4">Suiça</option>
+                <option value="5">Dinamarca</option>
+                <option value="6">Uruguai</option>
+            </select>
+            <div class="links">
+                <ul>
+                    <li><a href="">Quem Somos</a></li>
+                    <li><a href="">Vagas</a></li>
+                    <li><a href="">Imprensa</a></li>
+                    <li><a href="">Investidor relations</a></li>
+                    <li><a href="">App rafigo - acesse de onde estiver</a></li>
+                    <li><a href="">Rafigo Business Studio</a></li>
+                    <li><a href="">Afiliados</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Central de ajuda</a></li>
+                    <li><a href="">Descubra como o rafigo funciona</a></li>
+                    <li><a href="">Condições e uso</a></li>
+                    <li><a href="">Informações legais</a></li>
+                    <li><a href="">Preferências de cookies</a></li>
+                    <li><a href="">Aviso de Privacidade</a></li>
+                    <li><a href="">Cyber Security</a></li>	
+                </ul>
+                <div class="news">
+                    <h2>Quer <span class="bluetext">receber</span> ofertas de acomodações exclusivas?<br />Assine nossa <span class="bluetext">newsletter</span>.</h2>
+                    <form action="">
+                        <input type="text" placeholder="Endereço de e-mail"><button>Inscreva-se</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+	</body>
+</html> 
+
