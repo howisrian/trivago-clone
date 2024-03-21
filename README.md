@@ -1,1 +1,2 @@
 # trivago-copia
+EM ADNDAMENTO..
